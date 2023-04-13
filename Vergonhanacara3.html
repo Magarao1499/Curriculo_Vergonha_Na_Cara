@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700;900&display=swap" rel="stylesheet">
+
+    <title>Freddie Mercury</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .curriculo {
+    border: 1px solid;
+    width: 600px;
+    height: 800px;
+    }
+    .div_vermelho_persa_esquerda {
+   background-color: #a90100;        width: 270px;
+    color: #f0edbd;
+    float: left;        height: 100%;
+    }
+    .div_creme_direita {       background-color: #f0edbd;
+    width: 330px;
+    color: #831d1c;
+    float: right;
+    }
+    .img-s {
+    width: 100%;
+    }
+
+    .conteudo-vp {
+        margin: 20px;
+        /* border: 1px solid black; */
+    }
+    .conteudo_creme {
+        
+        /* border: 1px solid black; */
+    }
+    h1 {
+        text-transform: uppercase;
+        color: #d2ac61;
+        font-weight: 900;
+    }
+    h4 {
+        text-transform: uppercase;
+    }
+    .resumo {
+        margin-top: 30px;
+    }
+    .recordes,
+    .inspirações {
+        margin-top: 15px;
+    }
+    h5 {
+        color: #d2ac61;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    p {
+    margin-top: 5px;
+    font-size: 11px;
+    }
+    ul {
+   margin-left: 15px;
+    }
+    ul li {       font-size: 11px;
+    padding: 3px 0;
+    }
+    .barras_vp {
+   background-color: #831d1c;        padding: 5px 10px;
+    }
+
+    h6 {
+    padding: 5px 10px;
+    color: #d2ac61;        font-size: 20px;
+    }
+    .listagem_creme {
+    margin-left: 25px;
+    }
+
+    .espacamento,
+    .div-referencia {
+    margin-top: 25px;
+    }
+</style>
+
+<body>
+<div class="curriculo">
+    
+<div class="div_vermelho_persa_esquerda">
+ <img class="img-s"
+ src="data:image/jpeg;base64,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">
+<div class="conteudo-vp">
+ <h1>Freddie Mercury</h1>
+<h4>Lenda do Rock</h4>
+
+<div class="resumo">
+ <h5>Resumo</h5>
+<p>Freddie Mercury (nascido Farrokh Bulsara; Cidade de Pedra, 5 de setembro de 1946 — Londres, 24 de novembro de 1991) foi um cantor, pianista e compositor britânico considerado como uma das maiores vozes da história do rock e conhecido pelo seu trabalho com a banda britânica de rock Queen, que integrou como vocalista de 1970 até o ano de sua morte, 1991. Freddie tornou-se conhecido pelo seu poderoso tom de voz e pelos seus desempenhos enérgicos que envolviam uma interação com a plateia, tendo sido também considerado como um dos maiores artistas de todos os tempos.
+                    <p>
+</div>
+<div class="recordes">
+<h5>Recordes</h5>
+<ul>
+ <li>Um investigação mostrou que os vibrato (vibrações produzidas pelo tremor nervoso no diafragma e laringe para libertar a nota de voz) variam de 5,4 Hz a 6,9 Hz. Chegando a 6,9 Hz já é extraordinariamente poderosa. Foi constatado que o vibrato da voz de Freddie Mercury era de 7,04 Hz, muito acima da média.</li>
+<li>Em 2004, "Bohemian Rhapsody" foi incluída no Grammy Hall of Fame e a performance vocal de Freddie Mercuryfoi eleita pelos leitores da revista Rolling Stone EUA como a melhor da história do rock....</li>
+<li>Integrou a primeira banda britânica a bater o recorde de mil semanas nas paradas de seu país.</li>
+</ul>
+</div>
+<div class="inspirações">
+<h5>Inspirações</h5>
+ <p>The Beatles</p>
+ <p>Mary Austin</p>
+<p>Jimmy Hendrix</p>
+</div>
+</div>
+</div>
+
+<div class="div_creme_direita">
+<div class="conteudo_creme">
+<div>
+ <h5 class="barras_vp">Discografia & Músicas</h5>
+<h6>A Night At The Opera - 1975</h6>
+<ul class="listagem_creme">
+<li>Bohemian Rhapsody</li>
+<li>Love of My Life</li>
+<li>'39'</li>
+</ul>
+<br>
+<h6>News At The World - 1977</h6>
+<ul class="listagem_creme">
+ <li>We Will Rock You</li>
+<li>We Are The Champions</li>
+<li>Spread Your Wings</li>
+</ul>
+</div>
+
+ <div class="espacamento">
+                    
+<h6>Jazz - 1978</h6>
+<ul class="listagem_creme">
+ <li>Don't Stop Me Now</li>
+<li>Fat Bottomed Girls</li>
+<li>Tier Your Mother Down</li>
+</ul>
+<br>
+ <h6>A Day At The Races - 1976</h6>
+<ul class="listagem_creme">
+<li>Good Old Fashioned Lover Boy</li>
+ <li>Somebody To Love</li>
+ <li>You and I</li>
+</ul>
+</div>
+
+<div class="espacamento">
+                    
+<h6>Sheer Heart Atack - 1974</h6>
+<ul class="listagem_creme">
+ <li>Killer Queen</li>
+<li>Brighton Rock</li>
+<li>Stone Cold Crazy</li>
+</ul>
+<br>
+ <h6>The Game - 1980</h6>
+<ul class="listagem_creme">
+<li>Another One Bites The Dust</li>
+ <li>Crazy Little Thing Called Love</li>
+ <li>Play The Game</li>
+</ul>
+</div>
+
+<div style="background-color: #f0edbd; height: 145px;">
+                    
+<p></p>
+<p></p>
+<p></p>
+<br>
+<p></p>
+<p></p>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</body>
+
+</html>
